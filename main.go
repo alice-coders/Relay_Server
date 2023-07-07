@@ -116,8 +116,8 @@ func buildCommand() *cobra.Command {
 	control.BuildCommand(command)
 
 	var app = &cobra.Command{
-		Short: "YUKIMOCHI Activity-Relay",
-		Long:  "YUKIMOCHI Activity-Relay - ActivityPub Relay Server",
+		Short: "Re:Network Activity Relay",
+		Long:  "Re:Network Activity Relay - ActivityPub Relay Server",
 	}
 	app.AddCommand(server)
 	app.AddCommand(worker)
